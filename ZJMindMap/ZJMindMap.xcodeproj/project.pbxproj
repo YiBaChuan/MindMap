@@ -8,24 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		18C605511FC0103C00D7E94B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C605501FC0103C00D7E94B /* AppDelegate.m */; };
-		18C605541FC0103C00D7E94B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C605531FC0103C00D7E94B /* ViewController.m */; };
-		18C605571FC0103C00D7E94B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C605551FC0103C00D7E94B /* Main.storyboard */; };
 		18C605591FC0103C00D7E94B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C605581FC0103C00D7E94B /* Assets.xcassets */; };
 		18C6055C1FC0103C00D7E94B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C6055A1FC0103C00D7E94B /* LaunchScreen.storyboard */; };
 		18C6055F1FC0103C00D7E94B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C6055E1FC0103C00D7E94B /* main.m */; };
+		18C605681FC0159100D7E94B /* ZJRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C605671FC0159100D7E94B /* ZJRootViewController.m */; };
+		18C6056C1FC0160700D7E94B /* ZJMainEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C6056B1FC0160700D7E94B /* ZJMainEditViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18C6054C1FC0103C00D7E94B /* ZJMindMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJMindMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C6054F1FC0103C00D7E94B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18C605501FC0103C00D7E94B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18C605521FC0103C00D7E94B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18C605531FC0103C00D7E94B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18C605561FC0103C00D7E94B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18C605581FC0103C00D7E94B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C6055B1FC0103C00D7E94B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C6055D1FC0103C00D7E94B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18C6055E1FC0103C00D7E94B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18C605661FC0159100D7E94B /* ZJRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJRootViewController.h; sourceTree = "<group>"; };
+		18C605671FC0159100D7E94B /* ZJRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJRootViewController.m; sourceTree = "<group>"; };
+		18C6056A1FC0160700D7E94B /* ZJMainEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJMainEditViewController.h; sourceTree = "<group>"; };
+		18C6056B1FC0160700D7E94B /* ZJMainEditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJMainEditViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +59,34 @@
 		18C6054E1FC0103C00D7E94B /* ZJMindMap */ = {
 			isa = PBXGroup;
 			children = (
-				18C6054F1FC0103C00D7E94B /* AppDelegate.h */,
-				18C605501FC0103C00D7E94B /* AppDelegate.m */,
-				18C605521FC0103C00D7E94B /* ViewController.h */,
-				18C605531FC0103C00D7E94B /* ViewController.m */,
-				18C605551FC0103C00D7E94B /* Main.storyboard */,
+				18C605691FC015BD00D7E94B /* 主编辑 */,
+				18C605651FC0147E00D7E94B /* 入口 */,
 				18C605581FC0103C00D7E94B /* Assets.xcassets */,
 				18C6055A1FC0103C00D7E94B /* LaunchScreen.storyboard */,
 				18C6055D1FC0103C00D7E94B /* Info.plist */,
-				18C6055E1FC0103C00D7E94B /* main.m */,
 			);
 			path = ZJMindMap;
+			sourceTree = "<group>";
+		};
+		18C605651FC0147E00D7E94B /* 入口 */ = {
+			isa = PBXGroup;
+			children = (
+				18C6055E1FC0103C00D7E94B /* main.m */,
+				18C6054F1FC0103C00D7E94B /* AppDelegate.h */,
+				18C605501FC0103C00D7E94B /* AppDelegate.m */,
+				18C605661FC0159100D7E94B /* ZJRootViewController.h */,
+				18C605671FC0159100D7E94B /* ZJRootViewController.m */,
+			);
+			path = "入口";
+			sourceTree = "<group>";
+		};
+		18C605691FC015BD00D7E94B /* 主编辑 */ = {
+			isa = PBXGroup;
+			children = (
+				18C6056A1FC0160700D7E94B /* ZJMainEditViewController.h */,
+				18C6056B1FC0160700D7E94B /* ZJMainEditViewController.m */,
+			);
+			path = "主编辑";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +115,7 @@
 		18C605441FC0103C00D7E94B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZJ;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = jie;
 				TargetAttributes = {
@@ -131,7 +150,6 @@
 			files = (
 				18C6055C1FC0103C00D7E94B /* LaunchScreen.storyboard in Resources */,
 				18C605591FC0103C00D7E94B /* Assets.xcassets in Resources */,
-				18C605571FC0103C00D7E94B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,23 +160,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C605541FC0103C00D7E94B /* ViewController.m in Sources */,
+				18C605681FC0159100D7E94B /* ZJRootViewController.m in Sources */,
 				18C6055F1FC0103C00D7E94B /* main.m in Sources */,
 				18C605511FC0103C00D7E94B /* AppDelegate.m in Sources */,
+				18C6056C1FC0160700D7E94B /* ZJMainEditViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		18C605551FC0103C00D7E94B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18C605561FC0103C00D7E94B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		18C6055A1FC0103C00D7E94B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

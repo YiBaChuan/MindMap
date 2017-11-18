@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZJRootViewController.h
 //  ZJMindMap
 //
 //  Created by jie on 2017/11/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ZJRootViewController : UIViewController
 
 @end
-
