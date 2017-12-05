@@ -1,27 +1,35 @@
 //
-//  ZJMainEditViewController.m
+//  ZJEditElementViewController.m
 //  ZJMindMap
 //
-//  Created by jie on 2017/11/18.
+//  Created by jie on 2017/12/5.
 //  Copyright © 2017年 jie. All rights reserved.
 //
 
-#import "ZJMainEditViewController.h"
+#import "ZJEditElementViewController.h"
 
-@interface ZJMainEditViewController ()
+@interface ZJEditElementViewController ()
+
+@property (weak, nonatomic) IBOutlet UITextField *labelTextField;
+@property (weak, nonatomic) IBOutlet UITextView *desTextView;
 
 @end
 
-
-@implementation ZJMainEditViewController
+@implementation ZJEditElementViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
     
     
     
 }
+- (IBAction)cancelBtnClick:(id)sender {
+}
+
+- (IBAction)sureBtnClick:(id)sender {
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

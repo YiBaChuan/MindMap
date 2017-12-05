@@ -1,0 +1,48 @@
+//
+//  PrefixHeader.pch
+//  ZJMindMap
+//
+//  Created by jie on 2017/12/5.
+//  Copyright © 2017年 jie. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#ifdef DEBUG
+#   define DLog(fmt, ...) NSLog((@"%s %s [Line %d] " fmt),[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#   define DLog(...)
+#endif
+
+#define RADIAN_TO_DEGREE(__ANGLE__) ((__ANGLE__) * 180/M_PI)
+#define DEGREE_TO_RADIAN(__ANGLE__) ((__ANGLE__) * M_PI/180.0)
+
+#define WIDTH [UIScreen mainScreen].bounds.size.width
+#define HEIGHT [UIScreen mainScreen].bounds.size.height
+
+#define CircleOptionSmallRadius 40
+#define CircleOptionBigRadius 60
+
+#define CirclePageMargin 20
+
+#define CircleRadius 100
+#define CircleDiam (2*CircleRadius)
+#define MoveCircleRadius 30
+
+#define screenW self.view.bounds.size.width
+
+// block self
+#define WEAKSELF typeof(self) __weak weakSelf = self;
+
+
+#import "TurntableBaseView.h"
+#import "ZJFactoryMethod.h"
+#import "UIView+MJExtension.h"
+
+
+#endif /* PrefixHeader_pch */

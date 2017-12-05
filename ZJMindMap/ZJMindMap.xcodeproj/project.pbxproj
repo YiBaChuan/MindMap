@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18053F9F1FD6979600476D38 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18053F9C1FD6979600476D38 /* UIView+MJExtension.m */; };
+		18053FA01FD6979600476D38 /* ZJFactoryMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 18053F9E1FD6979600476D38 /* ZJFactoryMethod.m */; };
+		18053FA41FD6979D00476D38 /* CircleLayoutPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18053FA31FD6979D00476D38 /* CircleLayoutPathView.m */; };
+		18053FA81FD697BD00476D38 /* CircleViewManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 18053FA71FD697BD00476D38 /* CircleViewManger.m */; };
+		18053FAE1FD697C600476D38 /* CircleBigView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18053FAB1FD697C600476D38 /* CircleBigView.m */; };
+		18053FAF1FD697C600476D38 /* CircleSmallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18053FAD1FD697C600476D38 /* CircleSmallView.m */; };
+		18053FB31FD697CD00476D38 /* CircleViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18053FB21FD697CD00476D38 /* CircleViewModel.m */; };
+		18053FC21FD697D700476D38 /* TurntableBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18053FB61FD697D700476D38 /* TurntableBaseView.m */; };
+		18053FC31FD697D700476D38 /* ZJBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18053FB91FD697D700476D38 /* ZJBaseModel.m */; };
+		18053FC41FD697D700476D38 /* ZJTaskTimeInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18053FBB1FD697D700476D38 /* ZJTaskTimeInfoModel.m */; };
+		18053FC51FD697D700476D38 /* ZJTimersManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 18053FBD1FD697D700476D38 /* ZJTimersManger.m */; };
+		18053FC61FD697D700476D38 /* ZJTimerTaskModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18053FBF1FD697D700476D38 /* ZJTimerTaskModel.m */; };
+		18053FC71FD697D700476D38 /* ZJTimerTaskStatisticsTimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18053FC11FD697D700476D38 /* ZJTimerTaskStatisticsTimeModel.m */; };
+		18053FCE1FD6B00100476D38 /* ZJEditElementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18053FCC1FD6B00100476D38 /* ZJEditElementViewController.m */; };
+		18053FCF1FD6B00100476D38 /* ZJEditElementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18053FCD1FD6B00100476D38 /* ZJEditElementViewController.xib */; };
 		18C605511FC0103C00D7E94B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C605501FC0103C00D7E94B /* AppDelegate.m */; };
 		18C605591FC0103C00D7E94B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C605581FC0103C00D7E94B /* Assets.xcassets */; };
 		18C6055C1FC0103C00D7E94B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C6055A1FC0103C00D7E94B /* LaunchScreen.storyboard */; };
@@ -16,6 +31,36 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18053F991FD694BE00476D38 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		18053F9B1FD6979600476D38 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
+		18053F9C1FD6979600476D38 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		18053F9D1FD6979600476D38 /* ZJFactoryMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJFactoryMethod.h; sourceTree = "<group>"; };
+		18053F9E1FD6979600476D38 /* ZJFactoryMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJFactoryMethod.m; sourceTree = "<group>"; };
+		18053FA21FD6979D00476D38 /* CircleLayoutPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayoutPathView.h; sourceTree = "<group>"; };
+		18053FA31FD6979D00476D38 /* CircleLayoutPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayoutPathView.m; sourceTree = "<group>"; };
+		18053FA61FD697BD00476D38 /* CircleViewManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleViewManger.h; sourceTree = "<group>"; };
+		18053FA71FD697BD00476D38 /* CircleViewManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleViewManger.m; sourceTree = "<group>"; };
+		18053FAA1FD697C600476D38 /* CircleBigView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleBigView.h; sourceTree = "<group>"; };
+		18053FAB1FD697C600476D38 /* CircleBigView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleBigView.m; sourceTree = "<group>"; };
+		18053FAC1FD697C600476D38 /* CircleSmallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleSmallView.h; sourceTree = "<group>"; };
+		18053FAD1FD697C600476D38 /* CircleSmallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleSmallView.m; sourceTree = "<group>"; };
+		18053FB11FD697CD00476D38 /* CircleViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleViewModel.h; sourceTree = "<group>"; };
+		18053FB21FD697CD00476D38 /* CircleViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleViewModel.m; sourceTree = "<group>"; };
+		18053FB51FD697D700476D38 /* TurntableBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurntableBaseView.h; sourceTree = "<group>"; };
+		18053FB61FD697D700476D38 /* TurntableBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurntableBaseView.m; sourceTree = "<group>"; };
+		18053FB81FD697D700476D38 /* ZJBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJBaseModel.h; sourceTree = "<group>"; };
+		18053FB91FD697D700476D38 /* ZJBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJBaseModel.m; sourceTree = "<group>"; };
+		18053FBA1FD697D700476D38 /* ZJTaskTimeInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTaskTimeInfoModel.h; sourceTree = "<group>"; };
+		18053FBB1FD697D700476D38 /* ZJTaskTimeInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTaskTimeInfoModel.m; sourceTree = "<group>"; };
+		18053FBC1FD697D700476D38 /* ZJTimersManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTimersManger.h; sourceTree = "<group>"; };
+		18053FBD1FD697D700476D38 /* ZJTimersManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTimersManger.m; sourceTree = "<group>"; };
+		18053FBE1FD697D700476D38 /* ZJTimerTaskModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTimerTaskModel.h; sourceTree = "<group>"; };
+		18053FBF1FD697D700476D38 /* ZJTimerTaskModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTimerTaskModel.m; sourceTree = "<group>"; };
+		18053FC01FD697D700476D38 /* ZJTimerTaskStatisticsTimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTimerTaskStatisticsTimeModel.h; sourceTree = "<group>"; };
+		18053FC11FD697D700476D38 /* ZJTimerTaskStatisticsTimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTimerTaskStatisticsTimeModel.m; sourceTree = "<group>"; };
+		18053FCB1FD6B00100476D38 /* ZJEditElementViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJEditElementViewController.h; sourceTree = "<group>"; };
+		18053FCC1FD6B00100476D38 /* ZJEditElementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJEditElementViewController.m; sourceTree = "<group>"; };
+		18053FCD1FD6B00100476D38 /* ZJEditElementViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZJEditElementViewController.xib; sourceTree = "<group>"; };
 		18C6054C1FC0103C00D7E94B /* ZJMindMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJMindMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C6054F1FC0103C00D7E94B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18C605501FC0103C00D7E94B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +85,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18053F9A1FD6979600476D38 /* 工具 */ = {
+			isa = PBXGroup;
+			children = (
+				18053F9B1FD6979600476D38 /* UIView+MJExtension.h */,
+				18053F9C1FD6979600476D38 /* UIView+MJExtension.m */,
+				18053F9D1FD6979600476D38 /* ZJFactoryMethod.h */,
+				18053F9E1FD6979600476D38 /* ZJFactoryMethod.m */,
+			);
+			path = "工具";
+			sourceTree = "<group>";
+		};
+		18053FA11FD6979D00476D38 /* 布局基层处理 */ = {
+			isa = PBXGroup;
+			children = (
+				18053FA21FD6979D00476D38 /* CircleLayoutPathView.h */,
+				18053FA31FD6979D00476D38 /* CircleLayoutPathView.m */,
+			);
+			path = "布局基层处理";
+			sourceTree = "<group>";
+		};
+		18053FA51FD697BD00476D38 /* 圆圈视图管理 */ = {
+			isa = PBXGroup;
+			children = (
+				18053FA61FD697BD00476D38 /* CircleViewManger.h */,
+				18053FA71FD697BD00476D38 /* CircleViewManger.m */,
+			);
+			path = "圆圈视图管理";
+			sourceTree = "<group>";
+		};
+		18053FA91FD697C600476D38 /* 圆圈视图 */ = {
+			isa = PBXGroup;
+			children = (
+				18053FAA1FD697C600476D38 /* CircleBigView.h */,
+				18053FAB1FD697C600476D38 /* CircleBigView.m */,
+				18053FAC1FD697C600476D38 /* CircleSmallView.h */,
+				18053FAD1FD697C600476D38 /* CircleSmallView.m */,
+			);
+			path = "圆圈视图";
+			sourceTree = "<group>";
+		};
+		18053FB01FD697CD00476D38 /* 控件model */ = {
+			isa = PBXGroup;
+			children = (
+				18053FB11FD697CD00476D38 /* CircleViewModel.h */,
+				18053FB21FD697CD00476D38 /* CircleViewModel.m */,
+			);
+			path = "控件model";
+			sourceTree = "<group>";
+		};
+		18053FB41FD697D700476D38 /* 视图旋转 */ = {
+			isa = PBXGroup;
+			children = (
+				18053FB51FD697D700476D38 /* TurntableBaseView.h */,
+				18053FB61FD697D700476D38 /* TurntableBaseView.m */,
+				18053FB71FD697D700476D38 /* 定时器管理 */,
+			);
+			path = "视图旋转";
+			sourceTree = "<group>";
+		};
+		18053FB71FD697D700476D38 /* 定时器管理 */ = {
+			isa = PBXGroup;
+			children = (
+				18053FB81FD697D700476D38 /* ZJBaseModel.h */,
+				18053FB91FD697D700476D38 /* ZJBaseModel.m */,
+				18053FBA1FD697D700476D38 /* ZJTaskTimeInfoModel.h */,
+				18053FBB1FD697D700476D38 /* ZJTaskTimeInfoModel.m */,
+				18053FBC1FD697D700476D38 /* ZJTimersManger.h */,
+				18053FBD1FD697D700476D38 /* ZJTimersManger.m */,
+				18053FBE1FD697D700476D38 /* ZJTimerTaskModel.h */,
+				18053FBF1FD697D700476D38 /* ZJTimerTaskModel.m */,
+				18053FC01FD697D700476D38 /* ZJTimerTaskStatisticsTimeModel.h */,
+				18053FC11FD697D700476D38 /* ZJTimerTaskStatisticsTimeModel.m */,
+			);
+			path = "定时器管理";
+			sourceTree = "<group>";
+		};
 		18C605431FC0103C00D7E94B = {
 			isa = PBXGroup;
 			children = (
@@ -59,11 +180,18 @@
 		18C6054E1FC0103C00D7E94B /* ZJMindMap */ = {
 			isa = PBXGroup;
 			children = (
+				18053FB41FD697D700476D38 /* 视图旋转 */,
+				18053FB01FD697CD00476D38 /* 控件model */,
+				18053FA91FD697C600476D38 /* 圆圈视图 */,
+				18053FA51FD697BD00476D38 /* 圆圈视图管理 */,
+				18053FA11FD6979D00476D38 /* 布局基层处理 */,
+				18053F9A1FD6979600476D38 /* 工具 */,
 				18C605691FC015BD00D7E94B /* 主编辑 */,
 				18C605651FC0147E00D7E94B /* 入口 */,
 				18C605581FC0103C00D7E94B /* Assets.xcassets */,
 				18C6055A1FC0103C00D7E94B /* LaunchScreen.storyboard */,
 				18C6055D1FC0103C00D7E94B /* Info.plist */,
+				18053F991FD694BE00476D38 /* PrefixHeader.pch */,
 			);
 			path = ZJMindMap;
 			sourceTree = "<group>";
@@ -76,6 +204,9 @@
 				18C605501FC0103C00D7E94B /* AppDelegate.m */,
 				18C605661FC0159100D7E94B /* ZJRootViewController.h */,
 				18C605671FC0159100D7E94B /* ZJRootViewController.m */,
+				18053FCB1FD6B00100476D38 /* ZJEditElementViewController.h */,
+				18053FCC1FD6B00100476D38 /* ZJEditElementViewController.m */,
+				18053FCD1FD6B00100476D38 /* ZJEditElementViewController.xib */,
 			);
 			path = "入口";
 			sourceTree = "<group>";
@@ -150,6 +281,7 @@
 			files = (
 				18C6055C1FC0103C00D7E94B /* LaunchScreen.storyboard in Resources */,
 				18C605591FC0103C00D7E94B /* Assets.xcassets in Resources */,
+				18053FCF1FD6B00100476D38 /* ZJEditElementViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,9 +292,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18053FAF1FD697C600476D38 /* CircleSmallView.m in Sources */,
 				18C605681FC0159100D7E94B /* ZJRootViewController.m in Sources */,
+				18053FA01FD6979600476D38 /* ZJFactoryMethod.m in Sources */,
+				18053FA41FD6979D00476D38 /* CircleLayoutPathView.m in Sources */,
+				18053FC31FD697D700476D38 /* ZJBaseModel.m in Sources */,
+				18053FC51FD697D700476D38 /* ZJTimersManger.m in Sources */,
+				18053FC61FD697D700476D38 /* ZJTimerTaskModel.m in Sources */,
+				18053FAE1FD697C600476D38 /* CircleBigView.m in Sources */,
+				18053FC21FD697D700476D38 /* TurntableBaseView.m in Sources */,
+				18053F9F1FD6979600476D38 /* UIView+MJExtension.m in Sources */,
+				18053FA81FD697BD00476D38 /* CircleViewManger.m in Sources */,
+				18053FCE1FD6B00100476D38 /* ZJEditElementViewController.m in Sources */,
+				18053FB31FD697CD00476D38 /* CircleViewModel.m in Sources */,
 				18C6055F1FC0103C00D7E94B /* main.m in Sources */,
+				18053FC41FD697D700476D38 /* ZJTaskTimeInfoModel.m in Sources */,
 				18C605511FC0103C00D7E94B /* AppDelegate.m in Sources */,
+				18053FC71FD697D700476D38 /* ZJTimerTaskStatisticsTimeModel.m in Sources */,
 				18C6056C1FC0160700D7E94B /* ZJMainEditViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +437,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = MR54Q224XZ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZJMindMap/PrefixHeader.pch";
 				INFOPLIST_FILE = ZJMindMap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -308,6 +455,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = MR54Q224XZ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZJMindMap/PrefixHeader.pch";
 				INFOPLIST_FILE = ZJMindMap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
