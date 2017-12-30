@@ -25,9 +25,15 @@
     
 }
 - (IBAction)cancelBtnClick:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (IBAction)sureBtnClick:(id)sender {
+    
+    
+    
+    
+    
 }
 
 
